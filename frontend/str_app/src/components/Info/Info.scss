@@ -1,0 +1,72 @@
+$background-color: #6354542e;
+$text-color: #333;
+$primary-color: #4a90e2;
+$font-stack: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+.info-container {
+    background-color: $background-color;
+    border-radius: 8px;
+    width: 460px;
+    max-height: 60vh; 
+    padding: 20px;
+    margin: 20px auto; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: $font-stack;
+    color: $text-color;
+    align-items: center;
+    position: fixed;
+    z-index: -1;
+    top: 0; 
+    right: 0; 
+
+    // Tiêu đề phần thông tin
+    > h2 {
+        font-size: 1.2rem;
+        color: $text-color;
+        margin-bottom: 1rem;
+    }
+
+    // Tạo một layout cho các hàng với label và value
+    .info-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 1rem;
+
+        .info-label {
+            font-weight: bold;
+            color: $text-color;
+            min-width: 40%; // Đảm bảo nhãn không bị chen lấn
+        }
+
+        .info-value {
+            color: $primary-color;
+            text-align: right;
+            flex-grow: 1; // Cho phép nội dung mở rộng
+        }
+  }
+
+  // Loại bỏ margin cuối cùng để tránh khoảng trắng thừa
+  .info-row:last-child {
+    margin-bottom: 0;
+  }
+}
+
+// Sử dụng Media queries để đảm bảo responsive
+@media (max-width: 768px) {
+  .info {
+    margin: 10px;
+    width: auto; // Cho phép co giãn theo kích thước màn hình
+  }
+
+  .info-row {
+    flex-direction: column;
+    align-items: flex-start;
+
+    .info-value {
+      text-align: left;
+      margin-top: 0.25rem; // Tạo khoảng cách giữa label và value
+    }
+  }
+}

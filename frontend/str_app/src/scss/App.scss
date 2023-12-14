@@ -1,0 +1,71 @@
+.main {
+    display: flex;
+    min-height: 100%;
+    flex-direction: row;
+    
+    .gallery {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-grow: 1;
+        max-width: calc(100% - 500px);
+        background-color: rgb(240, 174, 53);
+
+        #image-input {
+            display: none;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: space-between; 
+            align-items: center;
+            margin-bottom: 1rem; 
+
+            .download-json-button {
+                padding: 15px;
+                color: white;
+                background-color: rgb(166, 18, 179);
+                border: 1px solid;
+                border-radius: 10px;
+            }
+        
+            .upload-button {
+                padding: 15px;
+                color: white;
+                background-color: green;
+                border: 1px solid;
+                border-radius: 10px;
+            }
+        }
+
+        .bbox-container {
+
+            display: flex;
+            position: relative;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+
+            .svg-container {
+                position: absolute;
+                user-select: none;
+
+                .bounding-box {
+                    background-color: red;
+                    fill: rgba(255, 0, 0, 0.4);
+                    user-select: none;
+
+                    &:hover {
+                        fill: rgba(46, 213, 69, 0.6); /* Màu fill khi hover */
+                    }
+                }
+            }
+
+            img {
+                user-select: none;
+            }
+        }
+
+    }
+    
+}
