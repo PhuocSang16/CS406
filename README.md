@@ -134,7 +134,11 @@ cd ..
 
 ## 6.1. DBNetpp
 
-Pretrained DBNetpp trên vintext tại folder aic2021/mmocr/pretrained
+Tải pretrained DBNetpp trên VinText và đặt vào folder aic2021/pretrained/dbnetpp
+
+```
+gdown 1z-H0Kdcb6AZF4h1H6Df46CGxlTRUGr31
+```
 
 Kết quả dự đoán của DBNetpp gồm polygons và confidence scores, polygon nào có score càng thấp thể hiện mức độ tự tin của mô hình về dự đoán càng thấp. Vì vậy, ta có thể chọn lọc bỏ những polygons này để đạt được hmean tốt hơn. Ở bước này, ta sẽ gridsearch threshold thuộc [0.1; 0.9] trên tập val để chọn ra threshold cho hmean tốt nhất:
 
@@ -159,7 +163,13 @@ CUDA_VISIBLE_DEVICES=0 python tools/test.py \
 
 ## 6.2. PARSeq
 
-Pretrained PARSeq trên vintext tại folder aic2021/parseq/pretrained
+Tải pretrained PARSeq trên vintext và đặt tại aic2021/pretrained/parseq:
+
+```
+gdown 1qQ-5E1t2YxZzpT8RuNbDKY3Dgb8Ovn7Y
+```
+
+Đánh giá:
 
 ```
 cd parseq
