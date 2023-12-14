@@ -1,0 +1,9 @@
+- Văn bản nhỏ, mờ: 1501, 1508, 1509, 1528
+- Văn bản nằm gần biên: 1506, 1528
+- Số điện thoại rời rạc: 1513, 1561, 1583, 1619
+- Nhầm hình ảnh biểu tượng thành văn bản: 1514, 1519, 1527, 1530, 1575, 1600
+- Gôm chung 2 văn bản gần nhau thành 1: 1524, 1537, 1569, 1995
+- Văn bản phông đặc biệt, chữ viét tay: 1524, 1554, 1570, 1605, 1634
+- Background phức tạp (Màu background gần giống văn bản, background có nhiều đường gạch ngang, yếu tố phản chiếu của gương): 1531, 1538, 1560, 1644, 1653, 1679, 1713, 1723, 1734, 1780, 1517, 1525, 1607
+- Thiếu dấu: 1534, 1621
+

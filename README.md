@@ -258,6 +258,8 @@ Chi tiết xem trong file aic2021/SceneTextPipeline.py
 
 # 8. Demo
 
+Chi tiết xem trong folder frontend/str_app
+
 # 9. Acknowledgements
 Minghui Liao cùng đồng nghiệp với DBNetpp. \
 Darwin Bautista, Rowel Atienza với PARSeq. \

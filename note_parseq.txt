@@ -1,0 +1,74 @@
+1. Kích thước ảnh nhỏ, chữ mờ:
+    img32977.jpg	PENSTIC	PLASTIC
+    img33061.jpg	Hoi	Ho
+    img33006.jpg	COMFANY	COMPANY
+    img33079.jpg	VỤ	vụ
+    img33080.jpg	Chẩm	Chăm
+    img33116.jpg	lamon	lemon
+    img33152.jpg	Tiếm	Tiềm
+    img33243.jpg	KHÁCH	KHACH
+    img33346.jpg	TOH:DO	10h:00
+    img43041.jpg	bvwngn.vyt@gmail.com	bvsnqn.syt@gmail.com
+
+2. Background phức tạp:
+    img33241.jpg	VÀO	VAO
+    img37587.jpg	Hanoi,	Hanoi
+    img37589.jpg	Hanoi,	Hanoi
+    img37626.jpg	CHÀO	CHÂU
+
+3. Phông chữ đặc biệt, chữ viết tay:
+    img35881.jpg	Alroys	Always
+    img35882.jpg	hungoy	hungry
+    img35885.jpg	The	the
+    img35886.jpg	evering	evening
+    img33065.jpg	la	Cá
+    img33164.jpg	Chuyên	Chuyên: 
+    img33336.jpg	ẨM	Ẩm
+    img33339.jpg	Cay	Cây
+    img34024.jpg	Vi	vị
+    img34027.jpg	MUỔI	MUỐI
+    img35822.jpg	UBNDĐI	UBNDP1
+    img35827.jpg	QUÂN	QUẬN
+    img37775.jpg	laVie	LaVie
+
+4. Chữ mà người còn khó đọc:
+    img37627.jpg	UNI	LINH
+    img37628.jpg	LLOX	xanh
+    img42839.jpg	Chuyang	shipping
+
+5. Dự đoán thiếu ký tự:
+    img32982.jpg	VỰC	VỰ
+
+6. Nhầm ký tự thường thành chữ nghệ thuật
+    img33337.jpg	T3	M
+
+7. Nhầm lẫn giữa chữ hoa thường 
+    img33118.jpg	Say	say
+    img33617.jpg	cafe	caFe
+    img33623.jpg	Wine	WINe
+    img34051.jpg	CƠ	cơ
+    img34052.jpg	SỞ	sở
+    img38770.jpg	cổ	CỐ
+    img43030.jpg	THÀNH	Thánh
+
+9. Nhầm lẫn giữa các ký tự gần giống nhau (do bản chất ký tự giống nhau hoặc ảnh bị nhoè nên dẫn tới nhầm lẫn)
+    img34071.jpg	I	/
+    img33811.jpg	0	O
+    img37662.jpg	Multimeia	Multimedia
+
+10. Không nhận dạng được dấu "'", ",", "."
+    img34002.jpg	109 05'	109'05'0
+    img34010.jpg	87 38	87'38
+    img42985.jpg	Nội	Nội,
+    img42876.jpg	2	2,
+
+11. Gán nhãn sai
+    img33154.jpg	0918.387.817	0918.387.81
+    img33219.jpg	NGHỈ)	NGHỈ
+    img33302.jpg	khách!	Khách!
+    img33307.jpg	CITY!	CITY
+    img33335.jpg	Tàu)	Tàu
+    img35774.jpg	Tủy	Tuỷ
+    img40384.jpg	0703 824 786	0703824786
+    img40386.jpg	0703.823848	0703823848
+    img34016.jpg	Cholime	Cholimex
