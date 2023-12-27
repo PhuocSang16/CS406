@@ -45,6 +45,8 @@ function ImageUpload() {
                             ref={imageRef}
                             src={imageURL}
                             alt="Uploaded"
+                            width={imageWidth}
+                            height={imageHeight}
                             onLoad={handleImageLoad}
                         />
                 }
