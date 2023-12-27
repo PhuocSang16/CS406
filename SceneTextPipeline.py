@@ -95,6 +95,9 @@ class SceneTextPipeline:
                     result['texts'].append(pred)
                     result['recog_scores'].append(min(prob.cpu().detach().numpy()))
 
+            h, w, _ = input.shape
+            result['width'] = w
+            result['height'] = h
             results.append(result)
 
         return results
