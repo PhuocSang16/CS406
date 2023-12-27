@@ -10,7 +10,12 @@ const BoundingBoxes = () => {
         <>
             {resultFromApi['det_polygons'] &&
                 resultFromApi['det_polygons'].map((polygon, index) => (
-                    <BoundingBox key={index} index={index} polygon={polygon} />
+                    <BoundingBox 
+                        key={index} index={index} 
+                        polygon={polygon} 
+                        rawWidth={resultFromApi['width']} 
+                        rawHeight={resultFromApi['height']}
+                    />
                 ))}
         </>
     );
